@@ -1,0 +1,15 @@
+$bg: lightgray;
+$imgborder: 2px;
+
+body {
+  background: $bg;
+}
+
+.cats {
+  width: 300px;
+  border: solid;
+  border-width: $imgborder;
+  &:hover {
+    border-color: grey;
+  }
+}
